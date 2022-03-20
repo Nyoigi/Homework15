@@ -11,7 +11,7 @@
         android:layout_width="150dp"
         android:layout_height="100dp"
         android:background="@drawable/btn_background"
-        android:text="Yandex"
+        android:text="@string/fragment_first_button_yandex_text"
         android:textAllCaps="false"
         android:textSize="20sp"
         app:backgroundTint="@null" />
@@ -22,7 +22,7 @@
         android:layout_height="100dp"
         android:layout_marginTop="32dp"
         android:background="@drawable/btn_background"
-        android:text="Google"
+        android:text="@string/fragment_first_button_google_text"
         android:textAllCaps="false"
         android:textSize="22sp"
         app:backgroundTint="@null" />

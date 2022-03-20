@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnYandex"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:background="@drawable/btn_background"
+        android:text="Yandex"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        app:backgroundTint="@null" />
+
+    <Button
+        android:id="@+id/btnGoogle"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/btn_background"
+        android:text="Google"
+        android:textAllCaps="false"
+        android:textSize="22sp"
+        app:backgroundTint="@null" />
+
+</LinearLayout>

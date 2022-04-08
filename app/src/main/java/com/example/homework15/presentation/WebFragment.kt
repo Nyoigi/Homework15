@@ -11,6 +11,7 @@ import com.example.homework15.databinding.FragmentWebBinding
 
 
 class WebFragment : Fragment() {
+
     private var binding: FragmentWebBinding? = null
 
     override fun onCreateView(
@@ -31,12 +32,10 @@ class WebFragment : Fragment() {
     @RequiresApi(Build.VERSION_CODES.O)
     private fun setUpWebView() {
         binding?.wbYandexGoogle?.webViewClient
-
         binding?.wbYandexGoogle?.apply {
             loadUrl(arguments?.getString("WEB_EXTRA_KEY").toString())
             settings.javaScriptEnabled = true
             settings.safeBrowsingEnabled = true
         }
     }
-
 }

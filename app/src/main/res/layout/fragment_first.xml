@@ -26,5 +26,4 @@
         android:textAllCaps="false"
         android:textSize="22sp"
         app:backgroundTint="@null" />
-
 </LinearLayout>

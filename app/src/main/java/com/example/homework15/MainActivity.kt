@@ -6,6 +6,7 @@ import com.example.homework15.presentation.FirstFragment
 import com.example.homework15.utils.extensions.navigateToFragment
 
 class MainActivity : AppCompatActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)

@@ -38,4 +38,10 @@ class WebFragment : Fragment() {
             settings.safeBrowsingEnabled = true
         }
     }
+
+    override fun onDestroyView() {
+        binding = null
+
+        super.onDestroyView()
+    }
 }
